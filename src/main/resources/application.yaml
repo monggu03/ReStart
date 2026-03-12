@@ -1,0 +1,13 @@
+spring:
+  datasource: #DB설정
+    url: jdbc:mysql://localhost:3306/twitterdb
+    username: dev
+    password: dev123
+  jpa: #스프링의 JPA 구현체는 하이버네이트를 사용합니다.
+    hibernate: #하이버네이트 설정
+      ddl-auto: update #SQL DDL문이 있으면 자동업데이트를 한다. <- 운영할때는 none으로
+    show-sql: true #콘솔창에 쿼리 띄워줭
+  h2:
+    console:
+      enabled: true
+
