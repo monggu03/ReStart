@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RepositoryConfig {
     @Bean
-    public PostRepository postRepository(InMemoryPostRepository inMemoryPostRepository) {
-        return inMemoryPostRepository;
+    public PostRepository postRepository(JpaPostRepository jpaPostRepository) {
+        return jpaPostRepository;
     }
 }
