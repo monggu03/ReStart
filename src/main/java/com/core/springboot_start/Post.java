@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor // 아래의 필드를 가진 생성자가 생김
 @Entity
-@Table(name="posts") //테이블 이름 정하기
+@Table(name="posts") //테이블 이름 정하기 포스트
 
 public class Post {
 
