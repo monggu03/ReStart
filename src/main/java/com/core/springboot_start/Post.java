@@ -21,7 +21,7 @@ public class Post {
 
     private Long id;//id를 long으로
 
-    private String content;
+    private String content; //컨텐츠
 
     private LocalDateTime createdAt;
 
